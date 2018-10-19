@@ -84,8 +84,9 @@ body{
 }
 .header__scroll{
 	margin-top: 170px;
-	padding-left: 600px;
+	margin-left: 600px;
 	cursor: pointer;
+	width: 30px;
 }
 .about{
 	color:white;
@@ -272,4 +273,200 @@ body{
 	font-weight: bold;
 	padding-top: 330px;
 	z-index: 2;
-	}
+}
+.gallery{
+	background: #ffe92f;
+	height: 1050px;
+	width: 100%;
+	display: block;
+}
+.gallery__text1{
+	font-size: 90px;
+	line-height: 27px;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-left: 40%;
+	padding-top: 100px;
+}
+.gallery__text2{
+	width: 630px;
+	height: 69px;
+	font-size: 17px;
+	line-height: 27px;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-left: 27%;
+	padding-top: 50px;
+}
+.gallery__row1{
+	width: 66%;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.gallery__row2{
+	width: 66%;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0px;
+    margin-left: 200px;
+}
+.gallery__66{
+	width: 66.666%;
+  	display: inline-block;
+    box-sizing: border-box;
+    float: left;
+}
+.gallery__33{
+	width: 33.333%;
+  	display: inline-block;
+    box-sizing: border-box;
+}
+.gallery__50{
+	width: 50%;
+  	display: inline-block;
+    box-sizing: border-box;
+}
+.gallery__img1{
+	border: solid #ffe92f 10px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+.gallery__img1:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.gallery__img2{
+	border: solid #ffe92f 10px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+.gallery__img2:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.gallery__img3{
+	border: solid #ffe92f 10px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+.gallery__img3:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.gallery__img4{
+	border: solid #ffe92f 10px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+.gallery__img4:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.gallery__img5{
+	border: solid #ffe92f 10px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+.gallery__img5:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.gallery__button{
+	font-size: 20px;
+	line-height: 27px;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	padding: 5px 10px 5px 10px;
+	margin-top: 20px;
+	margin-left: 40%;
+	width: 200px;
+	cursor: pointer;
+	background: #5585a1;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.gallery__button:hover{
+	opacity: 0.8;
+}
+.subscribe{
+	width: 100%;
+    height: 450px;
+	display: block;
+    background: #ffffff url(../img/subscribe_bg.png) 50% no-repeat;
+	background-size: 100%;
+}
+.subscribe__text1{
+	font-size: 40px;
+	line-height: 27px;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-left: 50px;
+	padding-top: 130px;
+}
+.subscribe__text2{
+	width: 572px;
+	height: 50px;
+	font-size: 17px;
+	line-height: 27px;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.subscribe__input{
+	font-size: 15px;
+	line-height: 27px;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	height: 45px;
+	width: 550px;
+	margin-top: 20px;
+	margin-left: 50px;
+	border: solid black 1px;
+	padding-left: 10px;
+	float: left;
+	
+}
+.subscribe__button{
+	font-size: 20px;
+	line-height: 27px;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	width: 200px;
+	text-align: center;
+	background: #95b92b;
+	padding: 11px 0px;
+	margin-left: 630px;
+	margin-top: 20px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.subscribe__button:hover{
+	opacity: 0.8;
+}
